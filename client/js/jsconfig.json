@@ -1,0 +1,13 @@
+// {
+//     "compilerOptions": {
+//         //"target": "ES6"
+//     },
+//     "include":[
+//         "../lib/*.js",
+//         "pageProcess.js"
+//     ],
+//     "exclude": [
+//         "node_modules",
+//         "**/node_modules/*"
+//     ]
+// }
