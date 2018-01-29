@@ -7,11 +7,13 @@ var io = require('socket.io')(server)
 /////////////////////////////////////////////////
 
 app.set('socketio', io)
+app.set('views', './client/views')
 app.set('view engine', 'pug')
-app.set('views', '../../client/views')
-app.use('/lib',express.static('../../client/lib'))
-app.use('/js',express.static('../../client/js'))
+app.use('/lib',express.static('./client/lib/'))
+app.use('/js',express.static('./client/js/'))
 app.use('/', router)
+
+
 
 
    io.on('connection', function(){

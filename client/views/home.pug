@@ -10,8 +10,14 @@ html
             p Pixelio
             
         section
-            p #{name}'s Pug source code! hey hey 
+            p #{name}'s Pug source code! hey hey
+            script.
+                let type="WebGL"
+                if(!PIXI.utils.isWebGLSupported){
+                    type = "canvas" 
+                }
+                PIXI.utils.sayHello(type)
             
         footer
             cool footer with lots of copyrights
-            script(src="/lib/pageProcess.js")
+            script(src="/js/pageProcess.js")
