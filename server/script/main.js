@@ -11,6 +11,7 @@ app.set('views', './client/views')
 app.set('view engine', 'pug')
 app.use('/lib',express.static('./client/lib/'))
 app.use('/js',express.static('./client/js/'))
+app.use('/public', express.static('./client/public/'))
 app.use('/', router)
 
 

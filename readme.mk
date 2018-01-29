@@ -12,8 +12,8 @@ Docs :
 	Pug  	: https://pugjs.org
 	Pixi 	: http://www.pixijs.com/tutorials
 	Pixi app: http://pixijs.download/release/docs/PIXI.Application.html
+	Sprites Sheet annimation : http://scottmcdonnell.github.io/pixi-examples/index.html?s=basics&f=spritesheet.js&title=SpriteSheet%20Animation
 	
-
 Sprites : 
 	https://forums.rpgmakerweb.com/index.php?threads/whtdragons-animals-and-running-horses-now-with-more-dragons.53552/
 	https://www.icon.io/assets/img/logo-icon-mini.png
