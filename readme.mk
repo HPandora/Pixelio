@@ -10,7 +10,9 @@ Different inspiration sources:
 Docs :
 	Express	: https://expressjs.com
 	Pug  	: https://pugjs.org
-
+	Pixi 	: http://www.pixijs.com/tutorials
+	Pixi app: http://pixijs.download/release/docs/PIXI.Application.html
+	
 
 Sprites : 
 	https://forums.rpgmakerweb.com/index.php?threads/whtdragons-animals-and-running-horses-now-with-more-dragons.53552/
